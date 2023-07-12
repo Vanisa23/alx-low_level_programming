@@ -2,6 +2,7 @@
 /**
  * _puts_recursion - functions like puts()
  * @s: string input.
+ *
  * Return: Always 0 (Success)
  */
 
