@@ -1,6 +1,6 @@
 #include "variadic_functions.h"
 #include <stdio.h>
-#include <stdarg>
+#include <stdarg.h>
 /**
  * print_numbers - prints a varible number of intergers
  * followed by a new line.
@@ -19,7 +19,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	{
 		printf("%d", va_arg(nums, int));
 		if (index != (n - 1) && separator != NULL)
-			print("%s", separator);
+			printf("%s", separator);
 	}
 	printf("/n");
 	va_end(nums);
